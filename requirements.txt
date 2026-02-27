@@ -1,5 +1,6 @@
 streamlit
-tensorflow
-numpy
-pandas
-scikit-learn
+tensorflow-cpu==2.16.1
+numpy==1.26.4
+pandas==2.2.1
+scikit-learn==1.4.2
+h5py==3.11.0
