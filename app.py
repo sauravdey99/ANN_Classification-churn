@@ -5,7 +5,9 @@ import pickle
 import tensorflow as tf
 
 # Load model and preprocessors
-model  = tf.keras.models.load_model('model.h5')
+from tensorflow import keras
+model = keras.models.load_model('model.keras')
+
 scaler = pickle.load(open('scaller.pkl', 'rb'))
 le     = pickle.load(open('label_encoder.pkl', 'rb'))
 oh     = pickle.load(open('oh.pkl', 'rb'))
