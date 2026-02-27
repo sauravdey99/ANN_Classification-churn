@@ -2,8 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
-import tensorflow as tf
-
 # Load model and preprocessors
 from tensorflow import keras
 model = keras.models.load_model('model.keras')
